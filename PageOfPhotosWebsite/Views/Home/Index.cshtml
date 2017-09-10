@@ -10,7 +10,7 @@
     <ol>
         @foreach (var item in Model)
             {
-            <li><img src="@item.UserAvatarUrl" height="25" /><a href="/page/@item.Slug">@item.Name (@item.Slug)</a></li>
+            <li><img src="@item.UserAvatarUrl" height="25" /><a href="/Page/id=@item.Slug">@item.Name (@item.Slug)</a></li>
         }
     </ol>
 </fieldset>
