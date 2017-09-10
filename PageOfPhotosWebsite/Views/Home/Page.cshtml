@@ -1,0 +1,19 @@
+﻿@model PageOfPhotosWebsite.Models.PageContents
+
+@{
+    ViewData["Title"] = "Page";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+<h2>@Model.pageRef.Name's Page of Photos</h2>
+
+<fieldset>
+    <legend>Photos for slug = @Model.pageRef.Slug</legend>
+    <ol>
+        @foreach (var item in Model.PageItems)
+        {
+            <li>@item.PhotoName: <img src="@item.PhotoThumbUrl" height="25" /><a href="@item.PhotoFullUrl">see orignal</a> <br/><em>@item.PhotoDescription</em></li>
+        }
+    </ol>
+</fieldset>
