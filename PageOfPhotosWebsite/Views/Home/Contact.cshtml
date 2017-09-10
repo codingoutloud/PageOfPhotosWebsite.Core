@@ -4,14 +4,22 @@
 <h2>@ViewData["Title"].</h2>
 <h3>@ViewData["Message"]</h3>
 
+<h4>Managed Thread Id: @System.Threading.Thread.CurrentThread.ManagedThreadId</h4>
+<h2>Claims inside Current Thread</h2>
+<h4><em>Claim Type</em> &rarr; <em>Claim Value</em></h4>
+<ol>
+    @foreach (var claim in User.Claims)
+    {
+        <li>@Html.Raw(claim.Type) &rarr; <strong>@claim.Value</strong></li>
+    }
+</ol>
+
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    Running from the Microsoft Azure cloud!<br />
+    <abbr title="Phone">T:</abbr>
+    <a href="https://twitter.com/pageofphotos">@@pageofphotos</a>
 </address>
 
 <address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <strong>Looking for help?</strong> Send us a tweet: <a href="https://twitter.com/pageofphotos">@@pageofphotos</a><br />
 </address>
