@@ -9778,11 +9778,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\dev\\github\\pageofphotos\\PageOfPhotosWebsite\\PageOfPhotosWebsite\\PageOfPhotosWebsite.csproj",
+      "projectUniqueName": "C:\\dev\\github\\pageofphotos\\PageOfPhotosWebsite\\PageOfPhotosWebsite\\PageOfPhotosWebsite.csproj",
       "projectName": "PageOfPhotosWebsite",
-      "projectPath": "c:\\dev\\github\\pageofphotos\\PageOfPhotosWebsite\\PageOfPhotosWebsite\\PageOfPhotosWebsite.csproj",
+      "projectPath": "C:\\dev\\github\\pageofphotos\\PageOfPhotosWebsite\\PageOfPhotosWebsite\\PageOfPhotosWebsite.csproj",
       "packagesPath": "C:\\Users\\bill\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\github\\pageofphotos\\PageOfPhotosWebsite\\PageOfPhotosWebsite\\obj\\",
+      "outputPath": "C:\\dev\\github\\pageofphotos\\PageOfPhotosWebsite\\PageOfPhotosWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bill\\AppData\\Roaming\\NuGet\\NuGet.Config",
