@@ -3,7 +3,6 @@ c:\dev\github\pageofphotos\PageOfPhotosWebsite\PageOfPhotosWebsite\bin\Debug\net
 c:\dev\github\pageofphotos\PageOfPhotosWebsite\PageOfPhotosWebsite\bin\Debug\netcoreapp1.1\PageOfPhotosWebsite.runtimeconfig.dev.json
 c:\dev\github\pageofphotos\PageOfPhotosWebsite\PageOfPhotosWebsite\bin\Debug\netcoreapp1.1\PageOfPhotosWebsite.dll
 c:\dev\github\pageofphotos\PageOfPhotosWebsite\PageOfPhotosWebsite\bin\Debug\netcoreapp1.1\PageOfPhotosWebsite.pdb
-c:\dev\github\pageofphotos\PageOfPhotosWebsite\PageOfPhotosWebsite\obj\Debug\netcoreapp1.1\PageOfPhotosWebsite.csprojResolveAssemblyReference.cache
 c:\dev\github\pageofphotos\PageOfPhotosWebsite\PageOfPhotosWebsite\obj\Debug\netcoreapp1.1\PageOfPhotosWebsite.csproj.CoreCompileInputs.cache
 c:\dev\github\pageofphotos\PageOfPhotosWebsite\PageOfPhotosWebsite\obj\Debug\netcoreapp1.1\PageOfPhotosWebsite.AssemblyInfo.cs
 c:\dev\github\pageofphotos\PageOfPhotosWebsite\PageOfPhotosWebsite\obj\Debug\netcoreapp1.1\PageOfPhotosWebsite.dll
