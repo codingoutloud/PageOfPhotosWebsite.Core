@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using PageOfPhotosWebsite.Models;
 
 namespace PageOfPhotosWebsite.Controllers
@@ -16,6 +17,7 @@ namespace PageOfPhotosWebsite.Controllers
             return View(pageRefs);
         }
 
+        [AllowAnonymous]
         public IActionResult Page(string id)
         {
             var slug = id ?? "id not provided";
